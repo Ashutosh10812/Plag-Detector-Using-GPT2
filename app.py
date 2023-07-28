@@ -3,6 +3,7 @@ import transformers; from transformers import GPT2Tokenizer, GPT2LMHeadModel
 import torch
 import nltk
 nltk.download('punkt')
+nltk.download('stopwords')
 from nltk.util import ngrams
 
 from nltk.probability import FreqDist
